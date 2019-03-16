@@ -92,6 +92,7 @@ function buildCharts(sample) {
  
     var pieLayout = {
       margin: { t: 20, l: 20 },
+      title: { title: "" }
       
     };
  
@@ -107,7 +108,7 @@ function buildCharts(sample) {
   var bubbleLayout = {
     margin: { t: 0 },
     hovermode: "closest",
-    xaxis: { title: "OTU ID" }
+    xaxis: { title: "BioDiversity Bubble Chart" }
   };
   var bubbleData = [
     {
